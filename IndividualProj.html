@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Individual Project</title>
+        <link rel="icon" type="image/ico" sizes="16x16 32x32 64x64" href="andweyarnlogo.ico">
+    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: "Coquette";
+            src: url(coquette-regular.ttf);
+        }
+        body {
+            background-color: #FFC0EE;
+        }
+        #logo {
+            position: absolute;
+            top: 20px; right: 15px; width: 210px; height: 210px; border-radius: 50%;
+        }
+        
+        .products {
+            margin-top: 10px; background: #efe1f7; padding: 10px; max-width: auto; width: 85vw; margin: auto; border-radius: 10px;
+            box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        }
+        .product-item {
+            display: flex; gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory;
+        }
+        .product-item-list{
+            scroll-snap-align: start; border: 2px solid #cd97ec; border-radius: 10px; text-align: center;
+        }
+        .product-item img {
+            width: 500px; height: 500px;  margin-bottom: 10px; border-radius: 10px;
+        }
+        nav {
+            justify-content: flex-start;
+            background-color: #cd97ec;
+            border: 2px rgba(255, 0, 157, 0.301) solid;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #5c0477;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #efe1f7;
+        }
+        .dropdown:hover .dropdown-content {display: block;}
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            display: block;
+            text-decoration: none;
+        }
+        .dropdown-content a:hover {background-color: #5c0477;}
+        .category-container {display: flex; justify-content: space-between; margin-bottom: 10px; margin-left: 20px; }
+        a, p, h1, h2, h3, h4{
+            text-decoration: none;
+            color: black;
+            font-family: "Coquette";
+        }
+        
+    </style>
+
+    <body>
+        <header>
+            <section style="font-size: xx-large;">
+                <img src="andweyarnlogo.png" id="logo">
+            </section>
+            
+            <br><br><br>
+    
+            <section style="padding: 10px; background-color: #cd97ec; margin-right: 20px; margin-left: 20px; border-radius: 20px; border: 2px rgba(255, 0, 157, 0.301) solid; color: white;">
+                <h1 style="text-indent: 2%;">Welcome to Andweyarn!</h1>
+                <p style="text-indent: 4%;">Want something special to gift for your loved ones this Valentines? We got you covered! <br></p>
+            </section>
+    
+            <br><br><br>
+        </header>
+        
+        <nav>
+            <a href="IndividualProj.html">Home</a>
+            
+            <div class="dropdown">
+                <a href="#">Products</a>
+                <div class="dropdown-content">
+                    <a href="FlowersSeeAll.html">Flowers</a> 
+                    <a href="KeychainSeeAll.html">Keychains</a>
+                    <a href="AmigurumisdollSeeAll.html">Amigurumi Doll</a>
+                </div>
+                
+            </div>
+        </nav>
+        <br>
+
+        <section class="products">
+            
+            <div class="category-container">
+                <h3>Flowers</h3>
+                <a href="FlowersSeeAll.html">See all</a>
+            </div>
+
+            <div class="product-item">
+                
+                <div class="product-item-list">
+                    <img src="Flowers\420016718_1866211127145352_5391456946550266006_n.jpg" alt="Product 1">
+                    Product 1
+                    <p>Mirror mirror on the wall maganda gumawa neto</p>
+                </div>
+
+                <div class="product-item-list">
+                    <img src="Flowers\420042447_2126329467699068_7353473680025817087_n.jpg" alt="Product 2">
+                    Product 2
+                </div>
+
+                <div class="product-item-list">
+                    <img src="Flowers\421958063_1818297195260255_7151113440517804569_n.jpg" alt="Product 3">
+                    Product 3
+                </div>
+
+                <div class="product-item-list">
+                    <img src="Flowers\422240963_3558781677717749_6879035947261949968_n.jpg" alt="Product 4">
+                    Product 4
+                </div>
+
+                <div class="product-item-list">
+                    <img src="Flowers\422829596_748267000283179_1335014512742636776_n.jpg" alt="Product 5">
+                    Product 5
+                </div>
+
+                <div class="product-item-list">
+                    <img src="Flowers\andweyarn.jpg" alt="Product 6">
+                    Product 6
+                </div>
+
+                <div class="product-item-list">
+                    <img src="Flowers\412674088_888323866350135_8498710226630594472_n.jpg" alt="Product 7">
+                    Product 7
+                </div>
+                
+            </div>
+
+        </section>
+
+        <br><br>
+
+        <section class="products">
+            <div class="category-container">
+                <h3>Keychains</h3>
+                <a href="KeychainSeeAll.html">See all</a>
+            </div>
+
+            <div class="product-item">
+
+                <div class="product-item-list">
+                    <img src="Keychain\364227001_1356720768247564_4591864308560319167_n.jpg" alt="Product 1">
+                    Product 1
+                </div>
+
+                <div class="product-item-list">
+                    <img src="Keychain\364227140_2033396593665538_8595227999015860629_n.jpg" alt="Product 2">
+                    Product 2
+                </div>
+
+                <div class="product-item-list">
+                    <img src="Keychain\364229051_990124982135236_9112199306761376148_n.jpg" alt="Product 3">
+                    Product 3
+                </div>
+
+                <div class="product-item-list">
+                    <img src="Keychain\364353607_614869183817101_4198801645113391645_n.jpg" alt="Product 4">
+                    Product 4
+                </div>
+
+            </div>
+
+        </section>
+
+        <br> <br>
+
+        <section class="products">
+            
+            <div class="category-container">
+                <h3>Amigurumi Doll</h3>
+                <a href="AmigurumisDollSeeAll.html">See all</a>
+            </div>
+
+            <div class="product-item">
+                
+                <div class="product-item-list">
+                    <img src="Amigurumisdoll\427850982_428675406251240_8273444481764640228_n.jpg" alt="Product 1">
+                    Product 1
+                </div>
+
+                <div class="product-item-list">
+                    <img src="Amigurumisdoll\357019846_152998101148738_1607333700765290528_n(1).jpg" alt="Product 2">
+                    Product 2
+                </div>
+
+                <div class="product-item-list">
+                    <img src="Amigurumisdoll\357019846_152998101148738_1607333700765290528_n(2).jpg" alt="Product 3">
+                    Product 3
+                </div>
+
+                <div class="product-item-list">
+                    <img src="Amigurumisdoll\428067806_770690557924060_8508550874982561420_n.jpg" alt="Product 4">
+                    Product 4
+                </div>
+
+                <div class="product-item-list">
+                    <img src="Amigurumisdoll\357019846_152998101148738_1607333700765290528_n(3).jpg" alt="Product 5">
+                    Product 5
+                </div>
+                
+            </div>
+
+        </section>
+        
+        <br> <br>
+
+        <style>
+            #fdivleft{ width: 50%; float: left; text-align: center;}
+            #fdivmiddle{width: 33.33%; margin: auto; text-align: center;}
+            #fdivright{ width: 50%; float: right; text-align: center; }
+            .fcontainer {
+                display: flex; justify-content: center;
+                margin-left: 20px; margin-right: 20px; padding: 10px;
+            }
+            .img-fcontainer {
+                margin-left: 10px; margin-right: 10px; width: 56px; height: 50px;
+            }
+            .img-fcontainer img{
+                display: block; margin: auto;
+                width: 25px; height: 25px; border-radius: 50%;
+            }
+            footer{
+                border: 2px rgba(255, 0, 157, 0.301) solid;
+                padding: 5px;
+                background-color: #cd97ec;
+                margin-right: 20px; 
+                margin-left: 20px; 
+                border-radius: 20px;
+            }
+        </style>
+
+        <footer>
+            
+                <div id="fdivmiddle">
+                    <h3 style="font-size: x-large;">Contact us!</h3>
+                    
+                    <div >
+                        <p>johnvictus1@gmail.com | faye.andrea005@gmail.com <br>(E-mail)</p>
+                        <p>0935-751-0641 (TM) | 0947-531-5160 (Smart)</p><p></p>
+                    </div>
+    
+                </div>
+    
+                <div id="fdivleft">
+                    <h3 style="font-size: x-large;">About us!</h3>
+    
+                    <div>
+                        <p>Products: Andrea</p>
+                        <p>Developer: John Marvin</p>
+                    </div>
+                </div>
+    
+                <div id="fdivright">
+                    <h3 style="font-size: x-large;">Follow us!</h3>
+                     
+                    <div class="fcontainer">
+                        <div class="img-fcontainer">
+                            <a href="https://www.facebook.com/michinvictus/"><img src="socials icons\png-transparent-fb-facebook-facebook-logo-social-media-icon.png" alt="FB LOGO" class="image2"></a>
+                            <p style="font-size: x-small;">Facebook</p>
+                        </div>
+    
+                        <div class="img-fcontainer">
+                            <a href="https://www.instagram.com/andreeaaa/"><img src="socials icons\instagram-mobile-app-logo-instagram-app-icon-ig-app-free-free-vector.png" alt="FB LOGO" class="image2"></a>
+                            <p style="font-size: x-small;">Instagram</p>
+                        </div>
+    
+                        <div class="img-fcontainer">
+                            <a href="https://www.tiktok.com/@andweeyaaaa"><img src="socials icons\png-clipart-tiktok-icon-tech-companies-thumbnail.png" class="image2"></a>
+                            <p style="font-size: x-small;">Tiktok</p>
+                        </div>
+    
+                        <div class="img-fcontainer">
+                            <a href="https://www.youtube.com/@insanevictus"><img src="socials icons\youtube-logo-hd-8.png" class="image2"></a>
+                            <p style="font-size: x-small;">Youtube</p>
+                        </div>
+    
+                        <div class="img-fcontainer">
+                            <a href="https://www.threads.net/@insanevictus"><img src="socials icons\images.png" class="image2"></a>
+                            <p style="font-size: x-small;">Threads</p>
+                        </div>
+                        
+                        
+                    </div>
+                
+                </div>
+            
+        </footer>
+    
+
+    </body>
+</html>
